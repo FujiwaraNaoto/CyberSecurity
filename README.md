@@ -32,8 +32,8 @@ Linux raspberrypi 5.15.32-v8+ #1538 SMP PREEMT
 - https://nekotosec.com/verification-oscommand-injection-2/
 
 # OS command Injection
-
-`tmp; cat /etc/passwd`や,`tmp; ls`と入力してみましょう.
+MenuPage からOS command injection,OS command injection2,OS command injection3へと進みましょう.
+入力欄に　`tmp; cat /etc/passwd`や,`tmp; ls`と入力してみましょう.
 
  ### 対策方法
  shell_exec()などのシェルを直接呼び出す関数を使用しない
